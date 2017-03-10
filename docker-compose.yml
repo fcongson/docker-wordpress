@@ -6,6 +6,8 @@ web:
      - WORDPRESS_DB_PASSWORD=password
     ports:
      - "8080:80"
+    volumes:
+     - ./wp-content/:/var/www/html/wp-content
 mysql:
     image: mysql
     environment:
