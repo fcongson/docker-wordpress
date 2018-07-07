@@ -1,6 +1,6 @@
 # docker-wordpress
 
-A WordPress Docker Image
+A WordPress local development environment using Docker
 
 ## Run
 
